@@ -1,0 +1,124 @@
+/* css reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: fantasy;
+}
+body {
+	background-color: rgb(6, 68, 149);
+	color: aliceblue;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid skyblue;
+	background-color:rgb(250, 229, 201);
+}
+
+
+.header .logo {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: Arial, Helvetica,sans-serif;
+	color: rgb(35, 34, 34);
+}
+
+.varbar ul li a {
+	text-decoration: none;
+	margin: 20px;
+	padding: 7px 0;
+	transition: all;
+	transition-duration: 300ms;
+	color: rgb(35, 34, 34);
+	border-bottom: 2px solid rgba(135, 207, 235, 0);
+}
+
+.varbar ul li a:hover {
+	border-bottom: 2px solid skyblue;
+	color: skyblue;
+}
+
+.home {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	padding:0 10% ;
+}
+
+.home-content {
+	max-width: 600px;
+	
+}
+
+.home-content h1 {
+	font-size: 50px;
+	font-weight: 500px;
+	margin: 10px 0;
+}
+
+.home-content h4 {
+	font-size: 30px;
+	font-weight: 500px;
+	margin-bottom: 5px;
+}
+
+.home img {
+	height: 300px;
+	margin-left: 90PX;
+	border: 2px solid black;
+}
